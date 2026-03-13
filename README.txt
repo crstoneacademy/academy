@@ -1,17 +1,24 @@
-Risk Manager – Phase 5.4 Random Outcomes XLS Patch
+Cornerstone Christian Academy website package
 
-This patch changes the random outcomes export from TXT to XLS-compatible SpreadsheetML.
+Files included:
+- index.html
+- about.html
+- survey.html
+- contact.html
+- css/style.css
+- assets/logo/*
 
-Included:
-- Download Random Outcomes XLS button
-- export contains one row per randomized Monte Carlo scenario
-- row count matches the selected Random Scenarios value
-- keeps the rest of the Phase 5.3 navigation/random-scenarios behavior
+Next steps:
+1. Copy the files into your academy repo.
+2. Update the Google Form:
+   - Create the form in the school Google/Zoho workflow you prefer.
+   - Replace PASTE_GOOGLE_FORM_EMBED_LINK_HERE in survey.html with the Google Forms embed URL.
+3. Commit and push:
+   git add .
+   git commit -m "Update site branding and survey"
+   git push
 
-The workbook contains:
-- Scenario Number
-- Hard Cost
-- Soft Cost
-- Total Cost
-- Residual Cost
-- Breakeven Met?
+Brand colors:
+- Blue: #1d2733
+- Gold: #b89a6a
+- White: #ffffff
